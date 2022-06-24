@@ -1,0 +1,56 @@
+@import './header.css';
+
+
+
+
+
+
+/******** Reset style  ********/
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body li, a{
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/******** Reset style  ********/
+
+
+/************* Global Settings *************/
+
+body{
+  font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+  max-width: 1200px;
+
+}
+
+/************* Global Settings *************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
