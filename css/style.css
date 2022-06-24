@@ -1,5 +1,6 @@
 @import "./header.css";
 
+
 /******** Reset style  ********/
 
 body {
@@ -23,6 +24,7 @@ a {
 body {
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 /************* Global Settings *************/
