@@ -3,8 +3,13 @@
   grid-template-columns: 1fr 2fr;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px 120px;
+  padding: 25px 60px;
+  align-items: center;
   /*  background-color: #ddd; */
+}
+
+.introducao img{
+  display: block;
 }
 
 .introducao-conteudo {
@@ -22,11 +27,13 @@
 .introducao-conteudo p {
   font-size: 1.5rem;
   padding: 40px 5px;
+  color: #525252;
   /* background-color: antiquewhite; */ /*  */
 }
 
 .introducao-conteudo h1::before {
   content: "";
+  display: block;
   width: 130px;
   height: 120px;
   position: absolute;
@@ -42,7 +49,9 @@
   height: 6px;
   position: absolute;
   background: linear-gradient(180deg, #b6f829 0%, #67dd0a 100%);
+  border-radius: 4px;
   z-index: 0;
   top: 450px;
   left: 155px;
 }
+
