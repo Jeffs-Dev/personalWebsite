@@ -1,6 +1,7 @@
 @import "./header.css";
 @import "./introducao.css";
 @import "./experiencia.css";
+@import "./formacao.css";
 
 body {
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -27,28 +28,13 @@ a {
 }
 
 img {
-
   display: block;
 }
 
-.subtitulo{
+.subtitulo {
   font-size: 8rem;
   word-break: break-all;
   line-height: 1;
   text-transform: uppercase;
   max-width: 4ch;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

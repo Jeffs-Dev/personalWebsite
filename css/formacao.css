@@ -1,0 +1,98 @@
+.formacao {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  padding: 25px 60px;
+  background-color: #141414;
+}
+
+.formacao-texto {
+  font-size: 1.25rem;
+  line-height: 1.33;
+  margin-bottom: 60px;
+  color: #a3a3a3;
+}
+
+.formacao-lista {
+  display: flex;
+  gap: 10px 30px;
+}
+
+.formacao-lista-informacoes {
+  border-radius: 4px;
+  background: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+}
+
+.formacao-lista-informacoes::before {
+  content: "";
+  height: 25px;
+  width: 4px;
+  background: linear-gradient(180deg, #b6f829 0%, #67dd0a 100%);
+  border-radius: 3px;
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+.graduacao {
+  color: #a3a3a3;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.curso {
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 16ch;
+  position: relative;
+  padding: 10px;
+}
+
+.instituicao {
+  color: #a3a3a3;
+  font-size: 0.875rem;
+  padding: 10px;
+}
+
+.idiomas {
+  color: white;
+  position: relative;
+}
+
+.idiomas h3 {
+  margin-top: 80px;
+  text-transform: uppercase;
+  color: #a3a3a3;
+  font-size: 1rem;
+}
+
+.idiomas span {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.detalhe-idioma-span {
+  color: #a3a3a3;
+}
+
+.idiomas::before {
+  content: "";
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  background: url("../img/idiomas.svg") no-repeat;
+  left: -30px;
+  top: -3px;
+}
