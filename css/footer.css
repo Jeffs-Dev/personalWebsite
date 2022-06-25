@@ -1,57 +1,69 @@
-.rodape-content{
+.rodape-content {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  /* grid-template-columns: 600px 600px; */
+  grid-template-columns: 50% 50%;
   padding: 20px 0px;
   background: #000000;
+  position: relative;
 }
 
-.texto-footer{
+.texto-footer {
   padding: 20px 40px;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.33;
   color: #a3a3a3;
   display: flex;
- flex-direction: column;
- align-items: center;
+  flex-direction: column;
+  align-items: center;
+  width: 43ch;
+  justify-self: center;
 }
 
-.contato-email, .contato-telefone{
+/* .contato-email, .contato-telefone{
   display: block;
+} */
+
+.rodape-content-contatos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.rodape-content-contatos{
- display: flex;
- flex-direction: column;
- align-items: center;
-
-}
-
-.contato-email{
+.contato-email {
   padding: 20px 0px 0px 0px;
   color: #ffffff;
-  
 }
 
-.contato-telefone{
+.contato-telefone {
   padding: 10px 0px 0px 0px;
   color: #ffffff;
 }
 
-.redes-sociais{
+.redes-sociais {
   display: flex;
   flex-wrap: wrap;
   gap: 15px 15px;
   padding: 10px 0px 0px 0px;
 }
 
-.footer-copy{
+.footer-copy {
   background-color: #000000;
-  color: #8F8F8F;
+  color: #8f8f8f;
   text-align: center;
   padding: 0px 0px 10px 0px;
   font-size: 0.875rem;
 }
 
-
+.rodape-content::before {
+  content: "";
+  height: 100px;
+  width: 4px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #b6f829 0%, #67dd0a 100%);
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  /* margin: 0 auto; */
+}

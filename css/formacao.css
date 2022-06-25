@@ -6,6 +6,7 @@
   gap: 100px;
   padding: 25px 60px;
   background-color: #141414;
+  position: relative;
 }
 
 .formacao-texto {
@@ -96,3 +97,27 @@
   left: -30px;
   top: -3px;
 }
+
+.formacao::before{
+  content: "";
+  display: block;
+  width: 130px;
+  height: 120px;
+  position: absolute;
+  background: url("../img/detalhe.svg") no-repeat;
+  z-index: 1;
+  top: 415px;
+  left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
