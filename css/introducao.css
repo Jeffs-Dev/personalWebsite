@@ -54,3 +54,15 @@
   top: 450px;
   left: 155px;
 }
+
+.strong-html:hover {
+  color: #e36e02;
+}
+
+.strong-css:hover {
+  color: #0008c6;
+}
+
+.strong-js:hover{
+  color: #e7cf00;
+}
