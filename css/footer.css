@@ -10,8 +10,8 @@
 }
 
 .texto-footer {
-  padding: 20px 40px;
-  font-size: 1.125rem;
+  padding: 50px 40px;
+  font-size: 1rem;
   line-height: 1.33;
   color: #a3a3a3;
   display: flex;
@@ -29,6 +29,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px 0px;
 }
 
 .contato-email {
@@ -58,7 +59,7 @@
 
 .rodape-content::before {
   content: "";
-  height: 100px;
+  height: 140px;
   width: 4px;
   border-radius: 4px;
   background: linear-gradient(180deg, #b6f829 0%, #67dd0a 100%);
