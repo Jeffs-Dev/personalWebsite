@@ -72,10 +72,6 @@
   .introducao {
     grid-template-columns: 1fr 1fr;
   }
-
-  .introducao-conteudo h1 {
-    /* font-size: 3.5rem; */
-  }
 }
 
 @media (max-width: 700px) {
