@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 2fr;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 25px 60px;
+  padding: 40px 60px 25px 60px;
   align-items: center;
   /*  background-color: #ddd; */
 }
@@ -22,6 +22,7 @@
 .introducao-conteudo h1 {
   font-size: 4rem;
   /* background-color: aliceblue; */ /*  */
+  min-width: 15ch;
 }
 
 .introducao-conteudo p {
@@ -63,6 +64,24 @@
   color: #0008c6;
 }
 
-.strong-js:hover{
+.strong-js:hover {
   color: #e7cf00;
+}
+
+@media (max-width: 1080px) {
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .introducao-conteudo h1 {
+    /* font-size: 3.5rem; */
+  }
+}
+
+@media (max-width: 700px) {
+  .introducao-conteudo::after {
+    content: "";
+    top: 400px;
+    left: 155px;
+  }
 }

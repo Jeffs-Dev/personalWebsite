@@ -4,6 +4,13 @@
 @import "./formacao.css";
 @import "./footer.css";
 
+html {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   margin: 0;
