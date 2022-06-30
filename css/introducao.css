@@ -5,7 +5,7 @@
   margin: 0 auto;
   padding: 40px 60px 25px 60px;
   align-items: center;
-  /*  background-color: #ddd; */
+  
 }
 
 .introducao img {
@@ -15,13 +15,11 @@
 .introducao-conteudo {
   grid-column: 2/-1;
   padding: 50px 0px 0px 150px;
-  /*  background-color: #f6f6f6; */
   position: relative;
 }
 
 .introducao-conteudo h1 {
   font-size: 4rem;
-  /* background-color: aliceblue; */ /*  */
   min-width: 15ch;
 }
 
@@ -29,7 +27,6 @@
   font-size: 1.5rem;
   padding: 40px 5px;
   color: #525252;
-  /* background-color: antiquewhite; */ /*  */
 }
 
 .introducao-conteudo h1::before {
