@@ -98,7 +98,7 @@
   top: -3px;
 }
 
-.formacao::before{
+.formacao::before {
   content: "";
   display: block;
   width: 130px;
@@ -110,14 +110,71 @@
   left: 20px;
 }
 
+@media (max-width: 480px) {
+  .formacao {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
 
+  .formacao .subtitulo {
+    font-size: 2.5rem;
+    max-width: 9ch;
+    justify-self: center;
+  }
 
+  .formacao .formacao-texto {
+    justify-self: center;
+    text-align: center;
+  }
 
+  .formacao-lista {
+    flex-direction: column;
+    justify-content: center;
+  }
 
+  .formacao-lista-informacoes {
+    text-align: center;
+  }
 
+  .curso {
+    display: flex;
+    /* justify-self: center; */
+    align-self: center;
+  }
 
+  .formacao::before {
+    content: "";
+    display: none;
+  }
 
+  .idiomas h3,
+  span {
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+  }
+  .idiomas-container {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
 
+  .idiomas-container span {
+    word-wrap: break-word;
+  }
 
+  .detalhe-idioma-span {
+    grid-row: 2;
+  }
 
-
+  .idiomas::before {
+    content: "";
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    background: url("../img/idiomas.svg") no-repeat;
+    left: 100px;
+    top: -3px;
+  }
+}

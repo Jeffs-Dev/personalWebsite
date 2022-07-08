@@ -138,6 +138,7 @@
   .cargo,
   .hard-skills {
     grid-column: 1;
+    text-align: center;
   }
 
   .nome-empresa,
