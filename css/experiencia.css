@@ -108,7 +108,8 @@
 @media (max-width: 650px) {
   .experiencia {
     grid-template-columns: 1fr;
-    position: relative;
+    max-width: max-content;
+    margin: 0 auto;
   }
 
   #experiencia .subtitulo {
@@ -124,5 +125,48 @@
     padding: 0;
     margin: 0;
     text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-experiencia-topico {
+    grid-template-columns: 1fr;
+  }
+  .container-experiencia-topico,
+  .nome-empresa,
+  p,
+  .cargo,
+  .hard-skills {
+    grid-column: 1;
+  }
+
+  .nome-empresa,
+  p,
+  .cargo,
+  .hard-skills,
+  .ano,
+  .container-experiencia-topico h3,
+  p {
+    justify-self: center;
+    margin: 0;
+  }
+
+  .nome-empresa,
+  .container-experiencia-topico h3 {
+    font-weight: bold;
+    font-size: 0.7rem;
+  }
+
+  #experiencia .subtitulo {
+    font-size: 2.5rem;
+  }
+
+  .ano-duplo,
+  .ano {
+    display: none; /* por hora */
+  }
+
+  .experiencia {
+    padding: 60px;
   }
 }
