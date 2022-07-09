@@ -68,3 +68,22 @@
   left: 50%;
   /* margin: 0 auto; */
 }
+
+
+@media (max-width: 480px){
+
+  .rodape-content::before {
+    content: "";
+   display: none;
+}
+
+.rodape-content{
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.texto-footer{
+  max-width: 40ch;
+}
+
+}

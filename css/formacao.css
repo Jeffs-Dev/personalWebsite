@@ -170,11 +170,6 @@
 
   .idiomas::before {
     content: "";
-    height: 30px;
-    width: 30px;
-    position: absolute;
-    background: url("../img/idiomas.svg") no-repeat;
-    left: 100px;
-    top: -3px;
+    display: none;
   }
 }
