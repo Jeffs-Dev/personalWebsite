@@ -110,6 +110,13 @@
   left: 20px;
 }
 
+@media (max-width: 600px) {
+  .formacao::before {
+    content: "";
+    display: none;
+  }
+}
+
 @media (max-width: 480px) {
   .formacao {
     grid-template-columns: 1fr;
